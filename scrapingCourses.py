@@ -23,4 +23,3 @@ def getCoupons():
 getCoupons()
 df=pd.DataFrame(list_course_url,columns=["Course","Url"])
 df.to_csv("Courses.csv",index=False,header=True)
-print(df.head)
