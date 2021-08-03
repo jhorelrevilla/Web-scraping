@@ -25,4 +25,4 @@ def get_bitcoins_price():
     #print(list_cripto)        
 #------------------------------------------------------------------------------------------
 #print(precio[0].get_text())
-get_bitcoins_price()
+#get_bitcoins_price()

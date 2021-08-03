@@ -17,7 +17,6 @@ def getCoupons():
     for i in list_courses:
         name=i.find_all("h2") 
         list_course_url.append([name[0].get_text(),i.get('href')])
-
-getCoupons()
-df=pd.DataFrame(list_course_url,columns=["Course","Url"])
-df.to_csv("Courses.csv",index=False,header=True)
+    df=pd.DataFrame(list_course_url,columns=["Course","Url"])
+    df.to_csv("Courses.csv",index=False,header=True)
+#getCoupons()
